@@ -7,8 +7,124 @@
     <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/dcit-web.appspot.com/o/a2main.css.css?alt=media&token=372ab3f9-ae18-4058-83ce-2253593a0555">
 
     <style>
-    
-      
+    body {
+    width: 100vw; 
+    height: 100vh; 
+    margin: 0;      
+    padding: 0;   
+    background-color: #fafafa; 
+    overflow-x: hidden; 
+}
+
+nav {
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    height: 54px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+#logo {
+    height: 40px;
+    position: relative;
+}
+
+.search-box {
+    height: 25px;
+    position: relative;
+    width: 30vw;
+    background-color: #fafafa;
+    text-align: center;
+    border: 1px solid #b5b5b5;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto;
+}
+
+#actions {
+    height: 40px;
+    position: relative;
+}
+
+#stories {
+    height: 90px; 
+    width: 70vw;
+    margin-top: -5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #b5b5b5;
+    border-radius: 2px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.user {
+    width: 18%; 
+    display: inline-block;
+    text-align: center;
+}
+
+.user img {
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 4px double #b5b5b5;
+    width: 56px;
+    height: 56px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user p {
+    text-align: center; 
+    margin: 0; 
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-weight: 100;
+    font-size: smaller;
+}
+
+.post {
+    border: 1px solid #b5b5b5;
+    border-radius: 2px;
+    height: 60vh;
+    width: 560px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post-header {
+    background-color: white;
+    height: 50px;
+    box-sizing: border-box;
+    width: inherit;
+    padding: 5px;
+    border-bottom: 1px solid #b5b5b5;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.post-header span {
+    font-weight: bold;
+}
+
     </style>
 </head>
 <body>
